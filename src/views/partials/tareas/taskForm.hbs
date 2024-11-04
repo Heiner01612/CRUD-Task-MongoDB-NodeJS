@@ -1,0 +1,27 @@
+<div class="card card-body p-4 rounded-0 bg-dark text-white">
+  <center><h3>Añade una tarea</h3></center>
+
+  <form action="/tasks/add" method="POST">
+    <div>
+      <label for="title">Escribe un Titulo</label>
+      <input
+        type="text"
+        name="title"
+        placeholder="title"
+        id="title"
+        value=""
+        class="form-control rounded-0 bg-dark text-white"
+      />
+    </div>
+    <div>
+      <label for="description">Descripción</label>
+      <textarea
+        name="description"
+        placeholder="Descripción"
+        id="description"
+        class="form-control rounded-0 bg-dark text-white"
+      ></textarea>
+    </div>
+    <button class="btn btn-primary btn-ms mt-2">Agregar</button>
+  </form>
+</div>

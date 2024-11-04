@@ -1,0 +1,9 @@
+#Variables de entorno
+.env
+
+#modulos de NodeJS
+node_modules
+
+#Carpeta de produccion
+dist
+
